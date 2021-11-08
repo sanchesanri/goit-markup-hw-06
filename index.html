@@ -523,6 +523,78 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+
+        <b class="text-modal">Оставьте свои данные, мы вам перезвоним</b>
+
+        <form class="modal-form">
+          
+          <label class="modal-label">Имя
+           <span class="modal-form-wrapper">
+            <input 
+            type="text" 
+            name="name" 
+            class="modal-input" 
+            required>
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#icon-person-form"></use>
+            </svg>
+           </span>
+          </label>
+
+          
+          <label class="modal-label">
+            Телефон
+            <span class="modal-form-wrapper">
+              <input 
+              type="tel" 
+              name="tel" 
+              class="modal-input" 
+              required>
+              <svg class="modal-form-icon">
+                <use href="./images/icons.svg#icon-phone-form"></use>
+              </svg>
+            </span>
+            
+          </label>
+
+          <label class="modal-label">
+            Почта
+            <span class="modal-form-wrapper">
+              <input 
+              type="email"           
+              name="email"            
+              class="modal-input"
+              required>
+              <svg class="modal-form-icon">
+                <use href="./images/icons.svg#icon-email-form"></use>
+              </svg>
+            </span>
+            
+          </label>
+
+        <label class="modal-label">
+          Комментарий
+        <textarea 
+        name="comments" 
+        placeholder="Введите текст" 
+        class="modal-form-textarea"
+        ></textarea>
+        </label>
+
+          <input 
+          type="checkbox" 
+          name="acsept-policy" 
+          id="acsept-policy"  
+          class="form-chackbox-input visually-hidden">
+         <label for="acsept-policy" class="form-chackbox-label">
+          Соглашаюсь с рассылкой и принимаю&nbsp;
+          <a href="#" class="form-chackbox-link">Условия договора</a>
+         </label>
+         
+        <button type="submit" class="button hero-button modal-btn-submit">Отправить</button>
+
+      </form>
+
         <div class="modal-close" data-modal-close>
           <svg
           width="11"
@@ -530,8 +602,8 @@
             <use href="./images/icons.svg#icon-x"></use>
           </svg>
         </div>
-      </div>
     </div>
+  </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
