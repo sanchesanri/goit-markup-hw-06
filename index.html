@@ -504,7 +504,7 @@
         <div class="footer-box-form">
           <b class="title footer-text">Подпишитесь на рассылку</b>
           <form class="footer-form">
-            <label>
+            <label class="footer-form-label">
               <input 
               name="mail" 
               type="email"              
@@ -572,14 +572,14 @@
             
           </label>
 
-        <label class="modal-label">
+          <label class="modal-label modal-label-textarea">
           Комментарий
-        <textarea 
-        name="comments" 
-        placeholder="Введите текст" 
-        class="modal-form-textarea"
-        ></textarea>
-        </label>
+          <textarea 
+          name="comments" 
+          placeholder="Введите текст" 
+          class="modal-form-textarea"
+          ></textarea>
+          </label>
 
           <input 
           type="checkbox" 
@@ -595,13 +595,13 @@
 
       </form>
 
-        <div class="modal-close" data-modal-close>
+        <button class="modal-close" data-modal-close>
           <svg
           width="11"
           height="11">
             <use href="./images/icons.svg#icon-x"></use>
           </svg>
-        </div>
+        </button>
     </div>
   </div>
     <script src="./js/modal.js"></script>
