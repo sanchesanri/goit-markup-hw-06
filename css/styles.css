@@ -766,8 +766,6 @@ address {
 }
 
 
-
-
 /* -----------portfolio------ */
 .list-btn {
   display: flex;
@@ -1033,11 +1031,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-textarea{
-  display: block;
+display: block;
 height: 120px;
 padding: 12px 16px;
 margin-top: 4px;
-/* margin-bottom: 20px; */
 resize: none;
 
 transition-property: border-color;
@@ -1051,7 +1048,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-textarea::placeholder{
-  color: rgba(117, 117, 117, 0,5);
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .form-chackbox-label{
