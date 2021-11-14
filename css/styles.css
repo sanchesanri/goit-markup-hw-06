@@ -260,7 +260,7 @@ span {
   
 }
 
-.current.nav__link::after {
+.nav__link--current::after {
   position: absolute;
   bottom: -1px;
 
@@ -327,7 +327,7 @@ span {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link.current {
+.nav__link--current {
   color: var(--accent-text-color);
   position: relative;
 }
