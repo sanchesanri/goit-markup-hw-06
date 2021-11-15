@@ -1,0 +1,28 @@
+// Переменные
+:root{
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #e5e5e5;
+  --third-bg-color: #2f303a;
+  --fourth-bg-color: #f5f4fa;
+  --white-color: #ffffff;
+  --card-set-gup: 30px;
+  --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  --pasive-icon-color: #afb1b8;
+}
+
+$primaryTextColor:var(--primary-text-color);
+$secondaryTextColor:var(--secondary-text-color);
+$accentColor:var(--accent-text-color);
+$primaryBgColor:var(--primary-bg-color);
+$secondaryBgColor:var(--secondary-bg-color);
+$thirdBgColor:var(--third-bg-color);
+$fourthBgColor:var(--fourth-bg-color);
+$whiteColor:var(--white-color);
+$cardSetGup:var(--card-set-gup);
+$cardShadow:var(--card-shadow);
+$pasiveIconColor:var(--pasive-icon-color);

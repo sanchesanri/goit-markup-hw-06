@@ -1,0 +1,35 @@
+.team__list {
+    display: flex;
+  }
+  
+  /* -team-section- */
+.team-section {
+    background-color: var(--fourth-bg-color);
+  }
+  
+.team__item {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: var(--card-shadow);
+    background-color: var(--primary-bg-color);
+  }
+  
+.team__item:not(:last-child) {
+    margin-right: var(--card-set-gup);
+  }
+  
+ 
+  
+.team__text {
+    margin-bottom: 16px;
+  }
+  
+.team__card {
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+.team__item .text {
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+  }

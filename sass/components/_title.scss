@@ -1,0 +1,36 @@
+.title {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+.team__title,
+.work__title,
+.clients__title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+  
+.team__title2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+// .team__title2 {
+//   margin-bottom: 10px;
+//   text-align: center;
+// }

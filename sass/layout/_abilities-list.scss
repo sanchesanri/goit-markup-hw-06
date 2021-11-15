@@ -1,0 +1,26 @@
+.abilities-list {
+    display: flex;
+  }
+.abilities-list__item {
+    width: 270px;
+  }
+  
+.abilities-list__item:not(:last-child) {
+    margin-right: var(--card-set-gup);
+  }
+  
+.abilities-list__box {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+  
+    margin-bottom: 30px;
+    background-color: var(--fourth-bg-color);
+    border-radius: 4px;
+  }
+  
+.abilities-list__title {
+    margin-bottom: 10px;
+  }

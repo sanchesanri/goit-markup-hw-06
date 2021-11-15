@@ -1,0 +1,34 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/placeholders';  
+@import './utils/mixins';
+
+
+// BASE normalize лок шлифты - глобальные стили, сброс стилей, цвета
+@import './base/normalize';
+@import './base/global';
+
+
+// COMPONENTS модули разбивать для удобства себе, блоки components
+
+@import './components/container';
+@import './components/button';
+@import './components/section';
+@import './components/title';
+@import './components/text';
+// @import './components/list-scroll';
+@import './components/page-header';
+@import './components/address-nav';
+@import './components/logo';
+// @import './components/social-list';
+
+// LAYOUT содержит отдельные компоненты с отдельным файлом .scss для каждого из них
+@import './layout/nav';
+// @import './layout/hero';
+// @import './layout/team';
+// @import './layout/abilities-list';
+// @import './layout/work';
+// @import './layout/clients';
+@import './layout/footer';
+@import './layout/footer-form';
+@import './layout/portfolio';

@@ -1,0 +1,22 @@
+.nav__logo {
+    color: var(--primary-text-color);
+  
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+  
+.footer-logo {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+  
+.footer-logo,
+.footer-address {
+    color: var(--white-color);
+  }
