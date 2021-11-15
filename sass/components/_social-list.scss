@@ -3,7 +3,7 @@
     justify-content: center;
   }
   
-  .social-list__link {
+.social-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,20 +15,18 @@
     transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: var(--white-color);
+    background-color: var(--accent-text-color);
+  }
   }
   
-  .social-list__item:not(:last-child) {
+.social-list__item:not(:last-child) {
     margin-right: 10px;
   }
   
-  .social-list__link:hover,
-  .social-list__link:focus {
-    color: var(--white-color);
-    background-color: var(--accent-text-color);
-  
-    
-  }
-  
-  .social-list__icon {
+.social-list__icon {
     fill: currentColor;
   }

@@ -10,11 +10,11 @@
 @import './base/global';
 
 
-// COMPONENTS модули разбивать для удобства себе, блоки components
+// COMPONENTS модули разбивать для удобства себе, блоки components.
 
 @import './components/container';
-@import './components/button';
 @import './components/section';
+@import './components/button';
 @import './components/title';
 @import './components/text';
 @import './components/list-scroll';

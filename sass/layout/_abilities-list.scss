@@ -3,11 +3,13 @@
   }
 .abilities-list__item {
     width: 270px;
+
+    &:not(:last-child) {
+      margin-right: var(--card-set-gup);
+    }
   }
   
-.abilities-list__item:not(:last-child) {
-    margin-right: var(--card-set-gup);
-  }
+
   
 .abilities-list__box {
     display: flex;
